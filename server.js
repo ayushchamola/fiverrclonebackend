@@ -18,7 +18,7 @@ mongoose.set('strictQuery', true)
 
 const connect = async () => {
   try {
-    await mongoose.connect(process.env.MONGO, { useNewUrlParser: true })
+    await mongoose.connect(process.env.MONGO)
 
     console.log('Connected to monogDB')
   } catch (error) {
