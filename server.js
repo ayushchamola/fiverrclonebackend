@@ -31,7 +31,7 @@ app.use(
     origin: [
       'http://127.0.0.1:5173',
       'http://localhost:5173',
-      'https://gleaming-douhua-549590.netlify.app',
+      'https://leafy-baklava-715249.netlify.app',
     ],
     credentials: true,
   })
